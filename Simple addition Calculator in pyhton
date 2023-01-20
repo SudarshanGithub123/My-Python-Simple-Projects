@@ -1,0 +1,9 @@
+print("Simple add calc")
+
+print ("First number")
+x = int(input())
+print ("Second number")
+y = int(input())
+print("Addition")
+z = int(input(x+y))
+print(z)
