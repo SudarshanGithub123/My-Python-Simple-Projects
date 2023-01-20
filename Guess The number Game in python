@@ -1,0 +1,21 @@
+actual_number = 45
+attempts = 0
+
+while True :
+  attempts += 1 
+  guess = int(input("Guess The number \n"))
+  if guess < actual_number:
+    print("Guess Higher Number")
+  elif guess > actual_number:
+    print("Guess the lower number")
+  else:
+    print(f"you gussed the number in {attempts} attempts")
+    
+    break
+  
+  if attempts == 5:
+    print("Game Over")
+    break
+
+
+print("Thanks For Playing The Game")
