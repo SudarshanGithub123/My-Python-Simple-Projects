@@ -1,0 +1,42 @@
+print("Welcoeme to my computer quiz")
+playing = input("Do you want to play? ")
+if playing.lower() != "yes":
+  quit()
+print("Ok ! Lets Play!")
+
+score = 0
+
+
+
+question1 = input("Is earth round?").lower()
+if question1 == "yes":
+    print("Right!")
+    score += 1
+ 
+else:
+    print("Wrong!")
+
+question2 = input("What does CPU stands for?").lower()
+if question2 == "central pro unit":
+    print("Right")
+    score += 1
+else:
+    print("wrong")
+
+question3 = input("Does sun Shine?").lower()
+if question3 == "yes":
+    print("Right")
+    score += 1
+else:
+    print("wrong")
+
+question4 = input("What is pink?").lower()
+if question4 == "colour":
+    print("Right")
+    score += 1
+else:
+    print("wrong")
+
+print("you got" + str(score) + "questions correct!")
+
+print("you got" + (str(score/4*100)) + "%")
