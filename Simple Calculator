@@ -1,0 +1,34 @@
+# Create A Simple Calculator
+print("Enter your first number")
+a =  input(int())
+
+print("Enter your second number")
+b = input(int())
+
+print("what operation do you want to do?")
+
+x = input()
+if x == "add":
+  add = int(a)+int(b)
+  print("addition of your numbers is",{add})
+  
+
+
+if x =="sub":
+  sub = int(a)-int(b)
+  print("Subtraction of your number is", {sub})
+
+
+if x =="mul":
+  mul = int(a)*int(b)
+  print("Multiplication of your number is", {mul})
+
+
+if x =="div":
+  div = int(a)/int(b)
+  print("Division of your number is", {div})
+
+
+
+
+
