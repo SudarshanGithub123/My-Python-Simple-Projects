@@ -1,0 +1,27 @@
+import random
+
+b = input("Enter your choice : ")
+ 
+
+
+l =[ "snake" , "Water" , "gun"]
+a =random.choice(l)
+print(a)
+
+if b == "snake" and a =="water":
+  print("you wins")
+if b == "water" and a== "snake":
+  print("CPU wins")
+
+if b == "gun" and a =="snake":
+  print("you wins")
+if b == "snake" and a== "gun":
+  print("CPU wins")
+
+if b == "water" and a =="gun":
+  print("you wins")
+if b == "gun" and a== "water":
+  print("CPU wins")
+
+if b==a:
+  print("Draw")
